@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+    min-height: 60vh;
+}
+
+.card_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 3vw;
+    margin: 20vh 0vh 0vh 0vh;
+    padding: 4px;
+
+}
+
+.card{
+    
+    border-radius: 10px;
+    text-align: justify;
+    padding: 2px;
+    transition: 3s ease-in-out;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    font-size: auto;
+    
+    
+}
+
+
+.card:hover{
+    transition: 3s ease-in-out;
+}
+
+.cardcontent h2{
+    margin:1vh 0vw 1vh 0vw;
+}
